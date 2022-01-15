@@ -1,0 +1,22 @@
+.item{
+color: blue;
+}
+.top{
+text-align : center;
+background : red;
+height : 40px;
+font-size: 30px;
+font-weight: bold;
+}
+.nav {
+height : 70px;
+border : 2px solid black;
+display: flex;
+align-items : center;
+margin-left: auto;
+border-radius: 10px;
+}
+.nav-item{
+margin-left: 10px;
+}
+

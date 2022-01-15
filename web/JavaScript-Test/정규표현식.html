@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<script>
+/*
+	//정규표현식 객체 생성자
+	var pattern = /a/;
+	var pattern = new RegExp('a');
+	alert(pattern.exec('abcde')); //추출
+	alert(pattern.test('abcde')); //확인
+	alert(pattern.test('bcde'));
+	var pattern = /a/i; //i=대소문자를 구분하지 않는다
+	var pattern = /a/g; //모든 검색 결과 리턴
+*/
+	var pattern = /(\w+)\s(\w+)/;
+	var str = "hee haa";
+	//캡처
+	alert(str.replace(pattern, "$2, $1")); //$ = 몇번째 그룹인가
+
+</script>
+</body>
+</html>
